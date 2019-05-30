@@ -1,0 +1,37 @@
+apiVersion: v1
+entries:
+  helm-chart:
+  - apiVersion: v1
+    created: 2019-05-30T12:06:15.142731+01:00
+    description: A Helm chart for Sock Shop
+    digest: c418a19f3b4f6aec8a358113f089f314e284c5d54b343ee12f776eb38e208836
+    name: helm-chart
+    urls:
+    - helm-chart-0.2.0.tgz
+    version: 0.2.0
+  nginx-ingress:
+  - apiVersion: v1
+    appVersion: 0.24.1
+    created: 2019-05-30T12:06:15.143613+01:00
+    description: An nginx Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: afb9c4595134a99fa7b0902e650de6e517b6295911fe585129851d0d2841debf
+    engine: gotpl
+    home: https://github.com/kubernetes/ingress-nginx
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    maintainers:
+    - email: jack.zampolin@gmail.com
+      name: jackzampolin
+    - email: mgoodness@gmail.com
+      name: mgoodness
+    - name: ChiefAlexander
+    name: nginx-ingress
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
+    urls:
+    - charts/nginx-ingress-1.6.15.tgz
+    version: 1.6.15
+generated: 2019-05-30T12:06:15.140431+01:00
